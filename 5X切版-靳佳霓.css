@@ -27,7 +27,7 @@
 .nav nav{
   font-size: 0px;
 }
-.nav a{
+.navbar a{
   display: inline-block;
   font-size: 20px;
   line-height: 40px;
@@ -43,7 +43,7 @@
   justify-content: center;
 }
 .wrap1 img{
-  width: 1200px;
+  width: 100%;
 }
 .wrap1_txt{
   text-align: center;
@@ -76,19 +76,20 @@
   text-align: center;
 }
 .wrap2{
-  justify-content: center;
+  /* justify-content: center; */
   background-color: #eee;
   padding: 40px 300px 20px 300px;
 }
 .wrap2 hr{
   width: 50px;
   size: 1px;
-  align-items: flex-start;
+  text-align: left;
   border: #f00 solid;
   /* text-align: left; */
 }
 .wrap3{
   width: 1200px;
+  /* padding: 30px 30px; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -97,10 +98,10 @@
 }
 
 .wrap3_item{
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   background-color: #fff;
-  /* margin: 20px 20px; */
+  margin: 30px 30px;
   padding: 30px 30px;
   border-radius: 1em;
   border: 1em #d3d3d3;
@@ -174,4 +175,15 @@
 .wrap3_item_Kurotxt_intro a{
   text-decoration: none;
   color: #f00;
+}
+.wrap4 h1 {
+  text-align: center;
+}
+
+.wrap4 hr{
+  width: 50px;
+  size: 1px;
+  /* align-items: flex-start; */
+  border: #f00 solid;
+  /* text-align: left; */
 }
